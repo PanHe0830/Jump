@@ -1,0 +1,12 @@
+// ¿§·ÈºÍÅ£ÄÌ
+
+#pragma once
+
+UENUM(BlueprintType)
+enum class EBoxType : uint8
+{
+	ERectangle UMETA(DisplayName = "Rectangle"), // ¾ØÐÎ
+	EGarden UMETA(DisplayName = "Garden"),	// Ô²ÐÎ
+
+	EDefault UMETA(DisplayName = "default")
+};
